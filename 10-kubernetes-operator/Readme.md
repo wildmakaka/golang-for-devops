@@ -94,6 +94,13 @@ $ kubectl describe cronjobs.batch.slurm.io/cronjob-sample
 <br/>
 
 ```
+$ kubectl delete cronjobs.batch.slurm.io cronjob-sample
+```
+
+
+<br/>
+
+```
 ^C
 ```
 
@@ -128,6 +135,20 @@ $ make deploy IMG=webmakaka/cronjob-controller:1.0.0
 $ kubectl -n kubebuilder-operator-system get pods
 NAME                                                       READY   STATUS         RESTARTS   AGE
 kubebuilder-operator-controller-manager-6796cc9946-b5w7z   0/2     ErrImagePull   0          108s
+```
+
+<br/>
+
+```shell
+$ kubectl apply -f config/samples/batch_v1_cronjob.yaml 
+```
+
+<br/>
+
+```shell
+$ kubectl get cronjobs.batch.slurm.io
+NAME             AGE
+cronjob-sample   4s
 ```
 
 
