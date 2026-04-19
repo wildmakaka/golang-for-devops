@@ -24,11 +24,21 @@ y
 
 <br/>
 
-Меняем:
+**Меняем:**  
 
 ```
 cronjob_types.go
 cronjob_controller.go
+```
+
+<br/>
+
+**Деплоим оператор:**
+
+<br/>
+
+```shell
+$ make manifests
 ```
 
 <br/>
