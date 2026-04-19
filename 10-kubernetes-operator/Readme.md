@@ -87,6 +87,12 @@ cronjob-sample   22s
 
 <br/>
 
+```shell
+$ kubectl describe cronjobs.batch.slurm.io/cronjob-sample
+```
+
+<br/>
+
 ### OperatorFramework
 
 https://sdk.operatorframework.io/
