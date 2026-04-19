@@ -6,21 +6,11 @@
 
 https://kubebuilder.io/quick-start.html
 
-
 <br/>
 
 ### OperatorFramework
 
 https://sdk.operatorframework.io/
-
-
-<br/>
-
-### OperatorFramework
-
-https://sdk.operatorframework.io/
-
-
 
 <br/>
 
