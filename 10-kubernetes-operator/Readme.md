@@ -24,6 +24,15 @@ y
 
 <br/>
 
+Меняем:
+
+```
+cronjob_types.go
+cronjob_controller.go
+```
+
+<br/>
+
 ### OperatorFramework
 
 https://sdk.operatorframework.io/
