@@ -93,6 +93,18 @@ $ kubectl describe cronjobs.batch.slurm.io/cronjob-sample
 
 <br/>
 
+```
+^C
+```
+
+<br/>
+
+```shell
+$ make docker-build docker-push IMG=webmakaka/cronjob-controller:1.0.0
+```
+
+<br/>
+
 ### OperatorFramework
 
 https://sdk.operatorframework.io/
