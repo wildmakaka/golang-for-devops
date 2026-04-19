@@ -6,10 +6,21 @@
 
 https://kubebuilder.io/quick-start.html
 
+<br/>
+
 ```shell
 $ kubebuilder init --domain slurm.io --repo slurm.io/cronjob
 ```
 
+<br/>
+
+```shell
+$ kubebuilder create api --group batch --version v1 --kind CronJob
+INFO Create Resource [y/n] 
+y
+INFO Create Controller [y/n] 
+y
+```
 
 <br/>
 
