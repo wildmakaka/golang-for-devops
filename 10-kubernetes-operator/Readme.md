@@ -151,6 +151,21 @@ NAME             AGE
 cronjob-sample   4s
 ```
 
+<br/>
+
+```shell
+$ kubectl -n kubebuilder-operator-system logs kubebuilder-operator-controller-manager-7b8986bdc8-2qsfc
+```
+
+<br/>
+
+```shell
+$ kubectl get pods
+NAME                              READY   STATUS      RESTARTS   AGE
+cronjob-sample-1776595140-9bj9f   0/1     Completed   0          2m21s
+cronjob-sample-1776595200-gr7rp   0/1     Completed   0          81s
+cronjob-sample-1776595260-hv5km   0/1     Completed   0          21s
+```
 
 <br/>
 
