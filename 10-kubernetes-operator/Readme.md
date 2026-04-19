@@ -64,6 +64,26 @@ $ kubectl get cronjobs.batch.slurm.io
 No resources found in default namespace.
 ```
 
+<br/>
+
+```shell
+$ make run
+```
+
+<br/>
+
+```shell
+$ kubectl apply -f config/samples/batch_v1_cronjob.yaml 
+cronjob.batch.slurm.io/cronjob-sample created
+```
+
+<br/>
+
+```shell
+$ kubectl get cronjobs.batch.slurm.io
+NAME             AGE
+cronjob-sample   22s
+```
 
 <br/>
 
