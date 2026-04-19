@@ -169,6 +169,12 @@ cronjob-sample-1776595260-hv5km   0/1     Completed   0          21s
 
 <br/>
 
+```shell
+$ make undeploy
+```
+
+<br/>
+
 ### OperatorFramework
 
 https://sdk.operatorframework.io/
