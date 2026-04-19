@@ -35,18 +35,33 @@ cronjob_controller.go
 
 **Деплоим оператор:**
 
+В Makefile поменял
+
+```
+controller-gen: ## Download controller-gen locally if necessary.
+	$(call go-get-tool,$(CONTROLLER_GEN),sigs.k8s.io/controller-tools/cmd/controller-gen@latest)
+
+kustomize: ## Download kustomize locally if necessary.
+	$(call go-get-tool,$(KUSTOMIZE),sigs.k8s.io/kustomize/kustomize/v5@v5.4.3)
+```
+
 <br/>
 
 ```shell
 $ make manifests
 ```
 
-
-
 <br/>
 
 ```shell
 $ make install
+```
+
+<br/>
+
+```shell
+$ kubectl get cronjobs.batch.slurm.io
+No resources found in default namespace.
 ```
 
 
