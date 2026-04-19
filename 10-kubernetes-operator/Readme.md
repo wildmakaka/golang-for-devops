@@ -41,6 +41,15 @@ cronjob_controller.go
 $ make manifests
 ```
 
+
+
+<br/>
+
+```shell
+$ make install
+```
+
+
 <br/>
 
 ### OperatorFramework
