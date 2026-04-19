@@ -113,6 +113,12 @@ $ docker build -t webmakaka/cronjob-controller:1.0.0 .
 <br/>
 
 ```shell
+$ minikube image load webmakaka/cronjob-controller:1.0.0
+```
+
+<br/>
+
+```shell
 $ make deploy IMG=webmakaka/cronjob-controller:1.0.0
 ```
 
