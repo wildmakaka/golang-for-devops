@@ -100,8 +100,16 @@ $ kubectl describe cronjobs.batch.slurm.io/cronjob-sample
 <br/>
 
 ```shell
-$ make docker-build docker-push IMG=webmakaka/cronjob-controller:1.0.0
+// $ make docker-build docker-push IMG=webmakaka/cronjob-controller:1.0.0
 ```
+
+<br/>
+
+```shell
+$ make build
+$ docker build -t webmakaka/cronjob-controller:1.0.0 .
+```
+
 
 <br/>
 
