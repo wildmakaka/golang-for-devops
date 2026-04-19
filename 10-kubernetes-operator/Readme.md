@@ -110,6 +110,20 @@ $ make build
 $ docker build -t webmakaka/cronjob-controller:1.0.0 .
 ```
 
+<br/>
+
+```shell
+$ make deploy IMG=webmakaka/cronjob-controller:1.0.0
+```
+
+<br/>
+
+```shell
+$ kubectl -n kubebuilder-operator-system get pods
+NAME                                                       READY   STATUS         RESTARTS   AGE
+kubebuilder-operator-controller-manager-6796cc9946-b5w7z   0/2     ErrImagePull   0          108s
+```
+
 
 <br/>
 
