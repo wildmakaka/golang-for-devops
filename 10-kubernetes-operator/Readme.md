@@ -6,6 +6,11 @@
 
 https://kubebuilder.io/quick-start.html
 
+```shell
+$ kubebuilder init --domain slurm.io --repo slurm.io/cronjob
+```
+
+
 <br/>
 
 ### OperatorFramework
@@ -17,3 +22,5 @@ https://sdk.operatorframework.io/
 ### MetaController
 
 https://metacontroller.github.io/metacontroller/
+
+
